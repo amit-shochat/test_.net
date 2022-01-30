@@ -16,7 +16,7 @@ pipeline {
 
         stage('test2-build ') {
           steps {
-            sh 'npm install'
+            echo 'wewe'
           }
         }
 
