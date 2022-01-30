@@ -1,12 +1,13 @@
 pipeline {
   agent {
-    docker {
-      image 'dotnet'
-      args '-p 3000:3000'
+        docker {
+            image 'node:6-alpine'
+            args '-p 3000:3000'
+        }
     }
-    environment {
-   HOME = '/tmp'
-    }
+     environment {
+            HOME = '/tmp'
+        }
 
   }
   stages {
