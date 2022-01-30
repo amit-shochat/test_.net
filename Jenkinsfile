@@ -1,45 +1,15 @@
 pipeline {
-  agent {
-    any {
-      
-    }
-
-  }
-  stages {
-    stage('build') {
-      parallel {
-        stage('build') {
-          steps {
-            echo 'build test'
-          }
+    agent {
+        docker {
+            image 'node:lts-bullseye-slim' 
+            args '-p 3000:3000' 
         }
-
-        stage('test2-build ') {
-          steps {
-            echo 'wewe'
-          }
+    }
+    stages {
+        stage('Build') { 
+            steps {
+                sh 'npm install' 
+            }
         }
-
-        stage('uname -r') {
-          steps {
-            sh 'uname -r '
-          }
-        }
-
-      }
     }
-
-    stage('Test') {
-      steps {
-        echo 'Test '
-      }
-    }
-
-    stage('Deploy') {
-      steps {
-        echo 'Deploy'
-      }
-    }
-
-  }
 }
