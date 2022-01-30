@@ -1,0 +1,15 @@
+/home/amit/Desktop/DOTNET/MyApp/bin/Debug/net6.0/MyApp
+/home/amit/Desktop/DOTNET/MyApp/bin/Debug/net6.0/MyApp.deps.json
+/home/amit/Desktop/DOTNET/MyApp/bin/Debug/net6.0/MyApp.runtimeconfig.json
+/home/amit/Desktop/DOTNET/MyApp/bin/Debug/net6.0/MyApp.dll
+/home/amit/Desktop/DOTNET/MyApp/bin/Debug/net6.0/ref/MyApp.dll
+/home/amit/Desktop/DOTNET/MyApp/bin/Debug/net6.0/MyApp.pdb
+/home/amit/Desktop/DOTNET/MyApp/obj/Debug/net6.0/MyApp.csproj.AssemblyReference.cache
+/home/amit/Desktop/DOTNET/MyApp/obj/Debug/net6.0/MyApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/amit/Desktop/DOTNET/MyApp/obj/Debug/net6.0/MyApp.AssemblyInfoInputs.cache
+/home/amit/Desktop/DOTNET/MyApp/obj/Debug/net6.0/MyApp.AssemblyInfo.cs
+/home/amit/Desktop/DOTNET/MyApp/obj/Debug/net6.0/MyApp.csproj.CoreCompileInputs.cache
+/home/amit/Desktop/DOTNET/MyApp/obj/Debug/net6.0/MyApp.dll
+/home/amit/Desktop/DOTNET/MyApp/obj/Debug/net6.0/ref/MyApp.dll
+/home/amit/Desktop/DOTNET/MyApp/obj/Debug/net6.0/MyApp.pdb
+/home/amit/Desktop/DOTNET/MyApp/obj/Debug/net6.0/MyApp.genruntimeconfig.cache
