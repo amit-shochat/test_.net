@@ -11,7 +11,7 @@ pipeline {
 
   }
   stages {
-    stage('') {
+    stage('run') {
       steps {
         sh 'dotnet run '
       }
